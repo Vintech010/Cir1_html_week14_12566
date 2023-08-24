@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyHomepage</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <!-- 1.Header -->
-    <div class="header">
-        <h1>My Website</h1>
-        <p>With a <b>flexible</b> layout</p>
-    </div>
-    <!-- 2.Navivation -->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#profile.html">Profile</a>
-        <a href="#contact.html">Contact</a>
-        <a href="https://www.google.co.th/?hl=th">Google</a>
-    </div>
-    <!-- 3.The flexble grid (content) -->
-    <div class="row">
-        <div class="side">
-            <h2>About Me</h2>
-            <h5>Photo of me</h5>
+    <!-- =====Header===== -->
+    <header class="header">
+        <!-- =====Top Header===== -->
+        <div class="top-header">
+            <div class="container">
+                <div class="site-info">
+                    <i class="fa-regular fa-clock"></i>&nbsp; <span>เปิด: จันทร์ - ศุกร์, 8.00AM to 16.30PM</span>
+                </div>
+
+                <div class="site-contact">
+                    <span>ติดต่อ: No. 098-991-9729</span>
+                </div>
+            </div>
         </div>
-        
-        <div class="main">
-            <h2>Titile HEADNG</h2>
-            <h5>Title description, Dec 7 , 2017</h5>
+        <!-- =====Middle Header===== -->
+        <div class="middle-header">
+        <div class="container">
+            <div class="site-name">
+                <h1>
+                    <a href="index.html">
+                        <span class="my">My</span>
+                        <span class="home">Home</span>
+                    </a>
+                </h1>
+            </div>
+            <div class="site-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Services</a></li>
+                    <li><a href="http://">Projects</a></li>
+                    <li><a href="http://">Pricing</a></li>
+                    <li><a href="http://">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- 4.Footer -->
-</body>
+        </div>
+        <!-- =====Bottom Header===== -->
+        <div class="bottom-header">
+            <div class="banner">
+                <img src="assets\images\1.jpg" alt="img1">
+            </div>
+            <div class="box-project">
+                <div class="box-info">
+                    <div class="icon-cate">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="title-cate">
+                        <h2>NEW PROJECTS</h2>
+                    </div>
+                    <div class="drescription-cate">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, esse!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    </body>
 </html>
